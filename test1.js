@@ -9,3 +9,8 @@ console.log(s);
 setTimeout(function(){
 	console.log('sss')
 },2000)
+
+// dev1 开发
+setTimeout(function(){
+	console.log('dev1')
+},1000)
