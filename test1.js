@@ -1,0 +1,11 @@
+var s = {name: 'sd', ord: 111};
+console.log(s.name)
+for (var key in s){
+	delete s.key
+	console.log(key,s[key],s.key)
+}
+console.log(s);
+
+setTimeout(function(){
+	console.log('sss')
+},2000)
